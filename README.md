@@ -54,7 +54,7 @@ OpenAI            无余额接口
 **配了哪把就出现哪一项**，没有的不占位。想加别家：在 Loader 行的 `config.providers` 里追加一项，`adapter` 选 `deepseek` / `openrouter` / `moonshot` / `siliconflow`，或用 `endpoint` 覆盖地址。
 
 ```yaml
-- id: dsh-api-balance
+- id: dsh-api-wallet
   config:
     providers:
       - id: my-proxy
