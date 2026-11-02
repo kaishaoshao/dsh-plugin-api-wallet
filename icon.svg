@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="API balance">
+  <rect x="5" y="17" width="48" height="34" rx="10" fill="#2f6fed"/>
+  <path d="M5 26.5h48" stroke="#ffffff" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M53 24v20" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="45" cy="36" r="9.5" fill="#ffffff"/>
+  <path d="M40.8 30.6 45 35.6l4.2-5" fill="none" stroke="#2f6fed" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M45 35.6v6.2" stroke="#2f6fed" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M41.4 37.2h7.2M41.4 40h7.2" stroke="#2f6fed" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

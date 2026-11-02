@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-api-wallet
+      name: 'dsh-plugin-api-wallet'
