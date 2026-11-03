@@ -2,9 +2,10 @@
 
 在 DeepSeek Harness 的输入框下方状态行里显示余额：**默认跟随当前会话所用的模型服务商**，也可以点开面板固定看某一个（账号钱包 / 任意一把已导入的 API Key）。
 
-![输入框下方的余额徽标；点击可切换来源](assets/demo.gif)
 
 ## 显示什么
+
+![输入框下方的余额徽标；点击可切换来源](assets/demo.gif)
 
 状态行里是一段带钱包图标的文字，例如 `Moonshot (Kimi) ¥675.13`，前面是来源名，后面是余额。
 
@@ -18,7 +19,7 @@ DeepSeek          ¥908.46
   …7ade
 Moonshot (Kimi)   ¥675.13
   …vBmI
-OpenAI            无余额接口
+GLM           无余额接口
 ────────────────────────    点击切换余额来源   刷新
 ```
 
@@ -37,9 +38,8 @@ OpenAI            无余额接口
 | Moonshot (Kimi) | `MOONSHOTAI_CN_API_KEY` / `MOONSHOTAI_API_KEY` / `MOONSHOT_API_KEY` | `api.moonshot.cn/v1/users/me/balance` |
 | OpenRouter | `OPENROUTER_API_KEY` | `api/v1/credits`（总额 − 已用，美元） |
 | SiliconFlow | `SILICONFLOW_API_KEY` | `api.siliconflow.cn/v1/user/info` |
-| 智谱 GLM（国内编码套餐） | `ZAI_CODING_CN_API_KEY` | 无 API Key 余额接口（见下） |
-| Z.ai (GLM) | `ZAI_API_KEY` | 无 API Key 余额接口（见下） |
-| OpenAI / Anthropic / 智谱 GLM | `OPENAI_API_KEY` / `ANTHROPIC_API_KEY` / `ZHIPU_API_KEY` | 无公开余额接口 → 列表标注「无余额接口」 |
+| 智谱 GLM（国内编码套餐） | `ZAI_CODING_CN_API_KEY` | 无 API Key 余额接口（见下）无公开余额接口 → 列表标注「无余额接口」 |
+
 
 ### 为什么 z.ai / 智谱没有金额
 
